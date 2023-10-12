@@ -40,9 +40,10 @@
                                         <th scope="col">Actions</th>
                                     </tr>
                                 </thead>
+                                
                                 <tbody>
-                    
                         {% for todo in allTodo %}
+                        
                         <tr>
                             <th scope="row">{{loop.index}}</th>
                             <td>{{todo.title}}</td>
@@ -56,11 +57,12 @@
 
                             </td>
                         </tr>
-                        {% endfor %}
-                    </tbody>
-                </table>
+                    
 
-                {% endif %}
+                      {% endfor %}
+                    </tbody>
+                    </table>
+                      {% endif %}
                         
 
 
